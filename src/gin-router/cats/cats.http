@@ -1,0 +1,19 @@
+###
+GET {{host}}/cats/cs?id=1
+Accept: application/json
+
+###
+POST {{host}}/cats/cs?id=2
+Content-Type: application/x-www-form-urlencoded
+
+{
+  "id": 1,
+  "User": "manu",
+  "Password": "123"
+}
+
+###
+POST {{host}}/cats/cs?id=2
+Content-Type: application/x-www-form-urlencoded
+
+id=99&User=manu&Password=123

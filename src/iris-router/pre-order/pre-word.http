@@ -1,0 +1,12 @@
+###
+GET {{host}}/pre-order
+
+###
+POST {{host}}/pre-order
+Content-Type: application/json
+
+{
+  "id": 1,
+  "status": 1,
+  "createdTime": 123432
+}
